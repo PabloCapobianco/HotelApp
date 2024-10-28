@@ -26,7 +26,7 @@ public class RoomRepository implements DAO<Room, Integer> {
 
 
     @Override
-    public void save(Room room) {
+    public Optional<Room> save(Room room) {
         // Lógica de guardado
     }
 
